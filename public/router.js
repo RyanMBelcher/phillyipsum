@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     req.on('data', function (inputValue) {
         let query = inputValue.toString();
-        let numberOfParagraphs = querystring.parse(query).numberOfParagraphs;
+        let numberOfParagraphs = queryString.parse(query).numberOfParagraphs;
         let loremIpsumText = loremIpsum.getAllParagraphs(numberOfParagraphs);
         let fileContents = fs.readFileSync('./public/index.html', { encoding: 'utf8' });
         fileContents = filesContents.replace('<article class="generated-text"></article>', loremIpsumText);
