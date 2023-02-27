@@ -30,7 +30,7 @@ GenerateNewText.prototype.getParagraph = function () {
     return paragraph;
 }
 
-GenerateNewText.prototype.getAllParagraph = function (numberOfParagraphs) {
+GenerateNewText.prototype.getAllParagraphs = function (numberOfParagraphs) {
     let allParagraphs = [];
     while (allParagraphs.length < numberOfParagraphs) {
         allParagraphs.push(this.getParagraph());
