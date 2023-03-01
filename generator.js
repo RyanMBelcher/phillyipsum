@@ -213,7 +213,7 @@ GenerateNewText.prototype.getAllParagraphs = function (numberOfParagraphs) {
     }
     let paragraphHTML = ' ';
     allParagraphs.forEach(function (paragraph) {
-        paragraphHTML += '<p>' + paragraph + '</p>';
+        paragraphHTML += '<p>' + paragraph + '.' + '</p>';
     });
     return paragraphHTML;
 }
