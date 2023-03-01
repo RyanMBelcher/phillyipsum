@@ -13,6 +13,7 @@ function GenerateNewText() {
             'jimmies ',
             'MAC machine ',
             'drawlin ',
+            'outta pocket ',
             'boul ',
             'tomato pie ',
             'go birds ',
@@ -126,7 +127,7 @@ function GenerateNewText() {
             'Allegheny West ',
             'Fairhill ',
             'Hunting Park ',
-            'Nicetown-Tioga',
+            'Nicetown-Tioga ',
             'Andorra ',
             'East Falls ',
             'Roxborough ',
@@ -182,7 +183,8 @@ function GenerateNewText() {
             'Franklin Institute ',
             'Eastern State Penitentiary ',
             'Broad Street ',
-            'Market Street '
+            'Market Street ',
+            'Divine Lorraine Hotel ',
         ];
 }
 
