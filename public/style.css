@@ -45,7 +45,7 @@ body {
 #generate-btn {
     background-color: #58c04d;
     border-radius: 100px;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     display: inline-block;
     padding: 7px 20px;
