@@ -201,7 +201,7 @@ class GenerateNewText {
         while (sentence.length < minCharLength) {
             sentence = `${sentence} ${this.getRandomPhrase()}`;
         }
-        return `${this.capitalizeFirstLetter(sentence.trim())}.`;
+        return `${this.capitalizeFirstLetter(sentence.trim())}. `;
     }
 
     getParagraph() {

@@ -5,16 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
     <title>Philly Ipsum</title>
 </head>
 
 <body>
-    <h1 id='title'>Philly Ipsum</h1>
-    <h2 id='sub-title'>A Philly inspired lorem ipsum generator</h2>
+    <header>
+        <span>
+            <h1 id='title'>Philly Ipsum</h1>
+            <h2 id='sub-title'>A Philly inspired lorem ipsum generator</h2>
+        </span>
+        <img src='./assets/images/lovepark.png' alt='LOVE sculpture at Love Park Philadelphia' id='love-image'>
+    </header>
     <form action='/' method='Post' id='form'>
-        <input type='range' min='1' max='15' id='paragraphs' name='numberOfParagraphs'>
         <p>Number of paragraphs: <span id='para'></span></p>
+        <input type='range' min='1' max='15' id='paragraphs-slider' name='numberOfParagraphs'>
         <button id='generate-btn'>Generate</button>
     </form>
     <br>
@@ -23,6 +29,12 @@
             <div class='placeholder-div'></div>
         </div>
     </section>
+    <footer>
+        <span>Philly Ipsum was created and designed in Philadelphia by Ryan M Belcher.</span>
+        <span id='socials'><a href='https://github.com/RyanMBelcher' target='_blank'>GitHub</a> <a
+                href='https://ryanmbelcher.github.io/react-portfolio/' target='_blank'>Portfolio</a> <a
+                href='https://www.instagram.com/theryanmbelcher/' target='_blank'>Instagram</a></span>
+    </footer>
 
 </body>
 <script src='index.js'></script>
