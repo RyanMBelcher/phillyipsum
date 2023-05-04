@@ -182,6 +182,7 @@ class GenerateNewText {
         'Broad Street',
         'Market Street',
         'Divine Lorraine Hotel',
+        'EMVPIID'
     ];
 
     getRandomPhrase() {
