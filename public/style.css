@@ -98,4 +98,10 @@ footer {
 
 a {
     text-decoration: none;
+    padding: 5px;
+
 }
+
+#socials {
+  margin-top: 15px;
+} 
